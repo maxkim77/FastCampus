@@ -1,11 +1,11 @@
 package fc.java.part3;
 
-import fc.java.model.PersonVo;
+import fc.java.model.PersonVO;
 
 public class SetterGetterTest {
 
     public static void main(String[] args) {
-        PersonVo vo = new PersonVo();
+        PersonVO vo = new PersonVO();
         vo.setName("홍길동");
         vo.setAge(50);
         vo.setPhone("010-1111-1111");
